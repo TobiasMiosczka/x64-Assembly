@@ -4,7 +4,7 @@ main proc
 	mov rbx, 1
 	mov rcx, 1       ; counter
     loopStart: 
-	add rcx, 1
+	inc rcx
 	add rax, rbx
 	mov rdx, rax
 	mov rax, rbx
