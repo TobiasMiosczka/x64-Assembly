@@ -2,7 +2,7 @@
 main proc
 	mov rax, 1       ; result
 	mov rbx, 1
-	mov rcx, 0       ; counter
+	mov rcx, 1       ; counter
     loopStart: 
 	add rcx, 1
 	add rax, rbx
